@@ -5,7 +5,7 @@ import Menu from "./componentes/Menu"
 
 //const pagina = window.location.pathname === '/' ? <Inicio/> : <SobreMim/>
 
-function App() {
+function AppRoutes() {
 
   return (
    <BrowserRouter>
@@ -19,5 +19,5 @@ function App() {
   );
 }
 
-export default App;
+export default AppRoutes;
 
