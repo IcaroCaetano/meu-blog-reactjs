@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Rodape.module';
+import styles from './Rodape.module.css';
 import { ReactComponent as MarcaRegistrada} from './../../assets/imagens/marca_registrada.svg';
 
 export default function Rodape() {
