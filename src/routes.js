@@ -4,6 +4,7 @@ import SobreMim from "./paginas/SobreMim";
 import Menu from "./componentes/Menu"
 import Rodape from "./componentes/Rodape";
 import PaginaPadrao from "./componentes/PaginaPadrao";
+import Post from "./paginas/Post";
 
 //const pagina = window.location.pathname === '/' ? <Inicio/> : <SobreMim/>
 
@@ -14,8 +15,9 @@ function AppRoutes() {
       <Menu/>
       <Routes>
         <Route path= "/" element={<PaginaPadrao />}>
-            <Route path= "/" element={<Inicio />} />
-            <Route path= "/sobremim" element={<SobreMim />} />
+            <Route index element={<Inicio />} />
+            <Route path= "sobremim" element={<SobreMim />} />
+            <Route path="posts/:id" element={<Post/>}></Route>
         </Route>
         <Route path="*" element={<div>Página não encontrada</div>}/>
       </Routes>
