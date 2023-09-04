@@ -13,6 +13,10 @@ export default function Post() {
     return post.id === Number(parametros.id);
   });
 
+  if (!post) {
+    return <h1>Post não encontado...</h1>
+  }
+
   console.log(post);
 
   return (
