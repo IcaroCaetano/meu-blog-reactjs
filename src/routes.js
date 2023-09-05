@@ -6,6 +6,7 @@ import Rodape from "./componentes/Rodape";
 import PaginaPadrao from "./componentes/PaginaPadrao";
 import Post from "./paginas/Post";
 import NaoEncontrada from "./paginas/NaoEncontrada";
+import ScrollToTop from "./componentes/ScrollToTop";
 
 //const pagina = window.location.pathname === '/' ? <Inicio/> : <SobreMim/>
 
@@ -13,6 +14,7 @@ function AppRoutes() {
 
   return (
    <BrowserRouter>
+   <ScrollToTop/>
       <Menu/>
       <Routes>
         <Route path= "/" element={<PaginaPadrao />}>
@@ -20,7 +22,7 @@ function AppRoutes() {
             <Route path= "sobremim" element={<SobreMim />} />
         </Route>
         
-        <Route path="posts/:id" element={<Post/>}></Route>
+        <Route path="posts/:id/*" element={<Post/>}></Route>
         <Route path="*" element={<NaoEncontrada/>}/>
       </Routes>
       <Rodape/>
