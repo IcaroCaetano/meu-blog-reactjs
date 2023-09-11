@@ -8,11 +8,12 @@ export default function Banner() {
     <div className={styles.banner}>
         <div className={styles.apresentacao}>
             <h1 className={styles.titulo}>
-                Meu Blog!
+                Meu Blog Dev!
             </h1>
 
             <p className={styles.paragrafo}>
-                Blog de Dev!
+                Espaço utilizado para armazenar conteúdo do meu conhecimento adquirido e 
+                ao longo da carreira. E repassado no formato de artigos em cards individuais.
             </p>
         </div>
 
