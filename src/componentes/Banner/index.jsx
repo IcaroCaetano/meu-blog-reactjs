@@ -12,7 +12,7 @@ export default function Banner() {
             </h1>
 
             <p className={styles.paragrafo}>
-                Espaço utilizado para armazenar conteúdo do meu conhecimento adquirido e 
+                Espaço utilizado para armazenar conteúdo do meu conhecimento adquirido 
                 ao longo da carreira. E repassado no formato de artigos em cards individuais.
             </p>
         </div>
