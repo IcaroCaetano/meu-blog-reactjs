@@ -12,8 +12,9 @@ export default function Banner() {
             </h1>
 
             <p className={styles.paragrafo}>
-                Espaço utilizado para armazenar conteúdo do meu conhecimento adquirido 
-                ao longo da carreira. E repassado no formato de artigos em cards individuais.
+                Espaço utilizado para armazenagem e exposição de conteúdo com base 
+                nos meus conhecimentos adquiridos ao longo da carreira. Armazenado no 
+                formato de artigos com páginas individuais.
             </p>
         </div>
 
