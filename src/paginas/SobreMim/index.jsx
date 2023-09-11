@@ -5,8 +5,8 @@ import fotoSobreMim from "./../../assets/imagens/sobre_mim_minha_foto.png";
 
 export default function SobreMim() {
   return (
-    <PostModelo fotoCapa={fotoCapa} titulo="Sobre mim">
-      <h3 className={styles.subtitulo}>Olá, eu sou o Ícaro!</h3>
+    <PostModelo fotoCapa={fotoCapa} titulo="About me">
+      <h3 className={styles.subtitulo}>Hi, I'm Ícaro!</h3>
 
       <img
         src={fotoSobreMim}
@@ -15,62 +15,66 @@ export default function SobreMim() {
       />
 
       <p className={styles.paragrafo}>
-        Olá, tudo bem? Eu sou desenvolvedor fullstack e trabalho atualmente na
-        companhia Atos como analista sênior.
+        Hello everything is fine? I am a fullstack developer and currently work at 
+        Atos as a senior analyst.
       </p>
 
       <p className={styles.paragrafo}>
-        Minha história como programador começou em 2001 na entrada da
-        universidade Unifor . Cursando o curso Informática. Lá tive o primerio
-        contato com a lógica de programação e a linguagem java. Desde então
-        formado algum tempo depois venho ganhando experi~encia com essa
-        tecnologia.
+        My story as a programmer began in 2001 when I entered Unifor University. 
+        Studying the IT course. There I had my first contact with programming logic 
+        and the Java language. Since then I graduated some time later and have been 
+        gaining experience with this technology.
       </p>
 
       <p className={styles.paragrafo}>
-        Tranferi meu curso para a faculdade Christus por ser mais barata e
-        próxima da minha residência. Lá me formei.
+        I transferred my course to Christus College because it was cheaper and closer 
+        to my residence. I graduated there.
       </p>
 
       <p className={styles.paragrafo}>
-        Ao longo da faculdade pecorri por várias empresas como estagiário como
-        banco do nordeste, banco do brasil, Synapse, Regional I da prefeitura de
-        Fortaleza. Mas o meu primeiro emprego de fato foi no núcleo de
-        tecnologia do Grupo Cristus.
+        Throughout college, I worked for several companies as an intern, such as Banco 
+        do Nordeste, Banco do Brasil, Synapse, Regional I of the city of Fortaleza. 
+        But my first real job was at the Christus Group's technology center.
       </p>
 
       <p className={styles.paragrafo}>
-        Durante 6 anos trabalhei no Grupo Cristus como desenvolvedor Java
-        backend. Progrando num ERP Open Source desenvolvido em Java o Adempiere
-        que foi um sistema herdado do Compiere. Esse ERP integrava diverso
-        setors da empresa como RH, o financeiro, e outras empresa do próprio
-        grupo como construtora, a escola de hipismo, o refeitorio dos colégios,
-        dentre outras.
+        For 6 years I worked at Grupo Christus as a Java backend developer. 
+        Programming in an Open Source ERP developed in Java, Adempiere, which was a 
+        system inherited from Compiere. This ERP integrated several sectors of the 
+        company such as human resources, finance, and other companies within the group 
+        such as the construction company, the equestrian school, the school cafeteria, 
+        among others.
       </p>
 
       <p className={styles.paragrafo}>
-        Saindo do grupo fui para a HapVIda uma empresa de plano de Saude lider
-        no Brasil. Lá tive contato com as ferramentas do mundo Oracle. Como
-        PL/SQL, o forms, reports.
+        Leaving the group I went to HapVida, a leading health plan company in Brazil. 
+        There I had contact with the tools of the Oracle world. Like PL/SQL, forms, 
+        reports.
       </p>
 
       <p className={styles.paragrafo}>
-        Após 2 anos nessa empresa fui para a Unimed de Fortaleza. Onde fui
-        alocado a um produto de autorização desenvolvido com a tecnologia Java
-        no framework Struts. E la fiquei durante 1 ano e meio.
+        After 2 years at this company I went to Unimed in Fortaleza. Where I was 
+        allocated authorization software developed with Java technology in the Struts 
+        framework. And I stayed there for 1 and a half years.
       </p>
 
       <p className={styles.paragrafo}>
-        Saindo da unimed Fortaleza fui para a Atos com um contrato no modelo
-        homeoffice. A Atos é uma empresa de cnsultoria francesa famosa
-        mudialmente. Com isso venho drndo alocados em contratos/clientes na
-        função de desenvolvedor backend Java e diversas outras tecnologias.
+        Leaving Unimed Fortaleza I went to Atos with a home office contract. 
+        Atos is a world-famous French consultancy company. As a result, I have been 
+        allocated contracts/clients in the role of Java backend developer and several 
+        other technologies such as Spring and its entire range of products.
       </p>
 
       <p className={styles.paragrafo}>
-        Após uma proposta do grupo de fornecimento de cursos. Tive a felicidade
-        de me inscrever e venho dia após dia me profundando no mundo frontend
-        mais especificamente com a tecnologia React.
+        After a proposal from Acts of providing courses. I was fortunate to sign up 
+        for Alura and day after day I have been delving deeper into the frontend world, 
+        more specifically with React technology.
+      </p>
+
+      <p className={styles.paragrafo}>
+        With this gain of knowledge in frontend, I have already been working on some 
+        activities on the current client with React native. And thus gaining experience 
+        in this new stack.
       </p>
     </PostModelo>
   );
